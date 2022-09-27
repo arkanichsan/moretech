@@ -7,7 +7,7 @@
                         <div class="contact-form">
                             <div class="section-title text-center">
                                 <span class="sp-color">Sign In</span>
-                                <h2>Sign In to Your Account!</h2>
+                                <h2>Sign In to Your MORETECH Account!</h2>
                             </div>
                             <form method="POST" action="<?= base_url().'login/login_action?'.$_SERVER['QUERY_STRING'] ?>">
                                 <div class="row">
@@ -46,7 +46,7 @@
                                             Not a Member?
                                             <a href="<?= base_url() ?>signup">Sign Up</a>
                                             or
-                                            <a href="<?= base_url() ?>">Back to Home</a>
+                                            <a href="<?= base_url() ?>">Explore more about MORETECH</a>
                                         </p>
                                     </div>
                                 </div>
