@@ -75,14 +75,14 @@ $query_builder = TRUE;
 
 $uri = base_url();
 $host = "localhost";
-$username = "u1269122_dev";
+$username = "u4814692_dev";
 $password = "100%Id/En";
-$database = "u1269122_moretech";
+$database = "u4814692_moretech";
 
 if(strpos($uri, 'localhost') !== false) {
 	$username = "root";
 	$password = "";
-	$database = "u1269122_moretech";
+	$database = "u4814692_moretech";
 }
 
 $db['default'] = array(
