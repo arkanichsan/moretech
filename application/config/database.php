@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $uri = base_url();
 $host = "localhost";
-$username = "u1269122_satria";
+$username = "u1269122_dev";
 $password = "100%Id/En";
 $database = "u1269122_moretech";
 
