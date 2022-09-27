@@ -5,6 +5,37 @@
     <!-- row -->
     <div class="container-fluid">
         <div class="row">
+
+            <div class="col-xl-12">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>id</th>
+                        <th>nama</th>
+                        <th>alamat</th>
+                        <th>telpon</th>
+                    </tr>
+
+                    <?php foreach ($user as $u) { ?>
+                    <tr>
+                        <td><?php echo $u['id']; ?></td>
+                        <td><?php echo $u['nama']; ?></td>
+                        <td><?php echo $u['alamat']; ?></td>
+                        <td><?php echo $u['telpon']; ?></td>
+                    </tr>
+                <?php } ?>
+
+
+                </table>
+                <?php
+                foreach ($user as $u) {
+                    echo $u['id'];
+                    echo '. ';
+                    echo $u['nama'];
+                    echo '<br>';
+                }
+                ?>
+            </div>
+
             <div class="col-xl-12">
                 <div class="col-xl-12 card h-auto">
                     <div class="card-body">

@@ -16,10 +16,11 @@ class Admin extends CI_Controller {
 	public function index()
 	{
 		$data = array(
+			'user'=>$this->MainModel->get_user()
 			
 		);
 
-		$v['admin_title'] 	= 'Dashboard';
+		$v['admin_title'] 	= 'Menu';
 		$v['script']		= '	<script src="'.base_url().'templates/kamr/js/dashboard/dashboard-1.js"></script>
 								<script src="'.base_url().'templates/kamr/vendor/apexchart/apexchart.js"></script>
 								<script src="'.base_url().'templates/kamr/vendor/peity/jquery.peity.min.js"></script>
@@ -68,6 +69,11 @@ class Admin extends CI_Controller {
 		$this->load->view('templates/leftbar');
 		$this->load->view('dashboard/dashboard_view');
 		$this->load->view('templates/footer');
+	}
+
+	public function detail($id=false)
+	{
+		print_r($id);
 	}
 
 }
