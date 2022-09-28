@@ -27,16 +27,33 @@
             </li>
             <li><a class="has-arrow cursor" aria-expanded="false">
                     <i class="flaticon-050-info"></i>
-                    <span class="nav-text">Sub Menu</span>
+                    <span class="nav-text">Explorer</span>
                 </a>
                 <ul aria-expanded="false">
                     <li>
-                        <a href="#" aria-expanded="false">User</a>
+                        <a href="#" aria-expanded="false">By Projects</a>
                         <ul class="mm-collapse" aria-expanded="false">
-                            <li><a href="#">User Detail</a></li>
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Menu</a></li>
+                    <li>
+                        <a href="#" aria-expanded="false">By Locations</a>
+                        <ul class="mm-collapse" aria-expanded="false">
+                            <li><a href="#">Location 1</a></li>
+                            <li><a href="#">Location 2</a></li>
+                            <li><a href="#">Location 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">Clients</a>
+                        <ul class="mm-collapse" aria-expanded="false">
+                            <li><a href="#">Client 1</a></li>
+                            <li><a href="#">Client 2</a></li>
+                            <li><a href="#">Client 3</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
