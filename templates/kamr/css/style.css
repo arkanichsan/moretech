@@ -26412,8 +26412,8 @@ table.dataTable.display tbody td {
   border-radius: 1rem; }
   .income-data .income-icon.style-1 {
     background-color: var(--primary); }
-  .income-data .income-icon.style-2 {
-    background-color: #2D3134; }
+  .income-data .income-icon.style-6 {
+    background-color: transparent;}
   .income-data .income-icon.style-3 {
     background-color: var(--rgba-primary-1);
     transition: all 0.5s; }
