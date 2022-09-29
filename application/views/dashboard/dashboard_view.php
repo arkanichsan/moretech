@@ -7,7 +7,7 @@
          <div class="row">
 
              <div class="col-xl-12">
-             <div id="map" style="width: 100%, height 400px"></div>
+                 <div id="map" style="width: 100%, height 400px"></div>
 
              </div>
 
@@ -77,12 +77,8 @@
                                                  <h3 class="font-w600 fs-2 mb-0 text-white">7&#8451;</h3>
                                                  <span class="fs-6 font-w500 text-white">NEED ATTENTION HERE!</span>
                                              </div>
-                                             <span class="income-icon style-2">
-                                                 <i class="bi bi-thermometer" style="
-                                                    font-size: 36px;
-                                                    color: #f72b50;
-                                                    "></i>
-                                             </span>
+
+                                             <span id="boot-icon" class="bi bi-thermometer" style="font-size: 63px; color: rgb(165, 42, 42); opacity: 1; -webkit-text-stroke-width: 1px;"></span>
                                          </div>
                                      </div>
                                  </div>
@@ -95,8 +91,8 @@
                                                  <h3 class="font-w600 fs-2 mb-0">4</h3>
                                                  <span class="fs-6 font-w500">DOORS OPENED since last 30 Minutes</span>
                                              </div>
-                                             <span class="income-icon style-3">
-                                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <span class=" fa-rotate-by" style="--fa-rotate-angle: 135deg">
+                                                 <svg width="51" height="51" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                      <path d="M20.0734 0C15.6988 0 12.1485 3.54844 12.1485 7.92443C12.1485 9.14474 12.4477 10.2895 12.9391 11.3213L0.516482 23.7488C-0.172161 24.4374 -0.172161 25.5504 0.516482 26.239L1.76163 27.4841C2.09101 27.8152 2.53822 28 3.00678 28C3.47341 28 3.92084 27.8152 4.25193 27.4841L7.02037 24.7158L9.551 27.2516C9.88209 27.581 10.3292 27.7658 10.7962 27.7658C11.2648 27.7658 11.7119 27.5827 12.0413 27.2516L12.6649 26.6284C13.3535 25.9398 13.3535 24.8269 12.6649 24.1382L10.1306 21.6024L16.6763 15.0566C17.7118 15.5497 18.853 15.8489 20.0751 15.8489C24.453 15.8489 28 12.3004 28 7.92443C28 3.54844 24.4533 0 20.0734 0ZM20.0734 12.3269C17.6448 12.3269 15.6706 10.3509 15.6706 7.92443C15.6706 5.49796 17.6448 3.52197 20.0734 3.52197C22.502 3.52197 24.4761 5.49796 24.4761 7.92443C24.4761 10.3509 22.502 12.3269 20.0734 12.3269Z" fill="var(--primary)" />
                                                  </svg>
                                              </span>
