@@ -29,6 +29,7 @@
 	<link href="<?= base_url(); ?>templates/kamr/vendor/datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
     <link href="<?= base_url(); ?>templates/kamr/vendor/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css">
     <link href="<?= base_url(); ?>templates/kamr/css/style.css" rel="stylesheet">
     <link href="<?= base_url(); ?>templates/kamr/css/custom.css" rel="stylesheet">
 	
