@@ -52,7 +52,7 @@
 									</li>
 								</ul>
 							</div>
-							<a class="all-notification" href="<?= base_url() ?>admin/notification_list">Notifications <i class="ti-arrow-end"></i></a>
+							<a class="all-notification" href="<?= base_url() ?>admin/notification_list"> <i class="ti-arrow-end"></i></a>
 						</div>
 					</li>
 					
