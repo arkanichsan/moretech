@@ -33,14 +33,14 @@
 
 
                  </table>
-                 <?php
+                 <!-- <?php
                     foreach ($user as $u) {
                         echo $u['id'];
                         echo '. ';
                         echo $u['nama'];
                         echo '<br>';
                     }
-                    ?>
+                    ?> -->
              </div>
 
              <div class="col-xl-12">
@@ -64,7 +64,7 @@
                                  <div class="d-flex align-items-end justify-content-xl-start justify-content-between mb-xl-0 mb-3">
                                      <div id="NewCustomers"></div>
                                      <div class=" ms-3">
-                                         <h6 class="fs-18 font-w600 mb-0 text-success">+2.4%</h6>
+                                         <h6 class="fs-18 font-w600 mb-0 text-black">+2.4%</h6>
                                          <span class="fs-14 font-w400">Than last Hour</span>
                                      </div>
                                  </div>
@@ -114,7 +114,7 @@
                                  <div class="popular-rooms">
                                      <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                      <div class="content">
-                                         <span class="badge badge-success">GOOD</span>
+                                         <span class="badge badge-primary">GOOD</span>
                                          <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Muara Baru</a></h3>
                                          <span class="font-w400 text-white">5&#8451;</span>
                                      </div>
@@ -164,7 +164,7 @@
                                  <div class="popular-rooms">
                                      <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                      <div class="content">
-                                         <span class="badge badge-success">GOOD</span>
+                                         <span class="badge badge-primary">GOOD</span>
                                          <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Bengkulu</a></h3>
                                          <span class="font-w400 text-white">4&#8451;</span>
                                      </div>

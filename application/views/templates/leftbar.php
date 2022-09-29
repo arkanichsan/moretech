@@ -31,7 +31,7 @@
                 </a>
                 <ul aria-expanded="false">
                     <li>
-                        <a href="#" aria-expanded="false">By Projects</a>
+                        <a class="has-arrow cursor" href="#" aria-expanded="false">By Projects</a>
                         <ul class="mm-collapse" aria-expanded="false">
                             <li><a href="#">Project 1</a></li>
                             <li><a href="#">Project 2</a></li>
@@ -39,7 +39,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" aria-expanded="false">By Locations</a>
+                        <a class="has-arrow cursor" href="#" aria-expanded="false">By Locations</a>
                         <ul class="mm-collapse" aria-expanded="false">
                             <li><a href="#">Location 1</a></li>
                             <li><a href="#">Location 2</a></li>
@@ -47,7 +47,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" aria-expanded="false">Clients</a>
+                        <a class="has-arrow cursor" href="#" aria-expanded="false">Clients</a>
                         <ul class="mm-collapse" aria-expanded="false">
                             <li><a href="#">Client 1</a></li>
                             <li><a href="#">Client 2</a></li>

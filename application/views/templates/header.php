@@ -17,7 +17,7 @@
 	<title>Moretech Dashboard</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/smt.png" />
+	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/logo/logo brand.svg" />
     <link href="<?= base_url(); ?>templates/kamr/vendor/fullcalendar/css/main.min.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/lightgallery/css/lightgallery.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
