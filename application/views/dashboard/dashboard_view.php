@@ -1,4 +1,4 @@
-<!--**********************************
+ <!--**********************************
             Content body start
         ***********************************-->
 <div class="content-body">
@@ -7,13 +7,17 @@
         <div class="row">
 
             <div class="col-xl-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7428573459742!2d106.92100631529578!3d-6.29748326338901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6993fac1269841%3A0x59fed7b3366b8192!2sSatriaCorp.id!5e0!3m2!1sid!2sid!4v1664292638350!5m2!1sid!2sid" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="col-xl-12">
                 <table class="table table-bordered">
                     <tr>
-                        <th>id</th>
-                        <th>nama</th>
-                        <th>alamat</th>
-                        <th>telpon</th>
-                        <th>aksi</th>
+
+                        <th>Project id</th>
+                        <th>Project Name</th>
+                        <th>Project Location</th>
+                        <th>Emergency Call Number</th>
                     </tr>
 
                     <?php foreach ($user as $u) { ?>
@@ -50,8 +54,8 @@
                                         </svg>
                                     </span>
                                     <div>
-                                        <h2 class="font-w600 mb-0 income-value">$45,945</h2>
-                                        <span class=" fs-6 font-w500">Total incomes</span>
+                                        <h2 class="font-w600 mb-0 income-value">3&#8451;</h2>
+                                        <span class=" fs-6 font-w500">Average Temperature</span>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +64,7 @@
                                     <div id="NewCustomers"></div>
                                     <div class=" ms-3">
                                         <h6 class="fs-18 font-w600 mb-0 text-success">+2.4%</h6>
-                                        <span class="fs-14 font-w400">Than last week</span>
+                                        <span class="fs-14 font-w400">Than last Hour</span>
                                     </div>
                                 </div>
                             </div>
@@ -69,8 +73,8 @@
                                     <div class="card-body">
                                         <div class="income-data d-flex justify-content-between align-items-center mb-sm-0 mb-2 ps-lg-0">
                                             <div>
-                                                <h3 class="font-w600 fs-2 mb-0 text-white">845</h3>
-                                                <span class="fs-6 font-w500 text-white">New Guest</span>
+                                                <h3 class="font-w600 fs-2 mb-0 text-white">7&#8451;</h3>
+                                                <span class="fs-6 font-w500 text-white">NEED ATTENTION HERE!</span>
                                             </div>
                                             <span class="income-icon style-2">
                                                 <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,8 +90,8 @@
                                     <div class="card-body">
                                         <div class="income-data d-flex justify-content-between align-items-center mb-sm-0 mb-2  mb-sm-0 mb-2 ps-lg-0 ">
                                             <div>
-                                                <h3 class="font-w600 fs-2 mb-0">195</h3>
-                                                <span class="fs-6 font-w500">Rooms</span>
+                                                <h3 class="font-w600 fs-2 mb-0">4</h3>
+                                                <span class="fs-6 font-w500">DOORS OPENED since last 30 Minutes</span>
                                             </div>
                                             <span class="income-icon style-3">
                                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,101 +107,74 @@
                 </div>
                 <div class="mt-5 mb-4">
                     <div class="d-flex align-items-center justify-content-between mb-sm-0 mb-2">
-                        <h2 class="font-w500">Popular Rooms</h2>
+                        <h2 class="font-w500">Units Preview</h2>
                         <div class="swiper-pagination style-1 room-swiper-pagination"></div>
                     </div>
                     <div class="swiper front-view-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/image2.png" alt="image">
+                                    <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                     <div class="content">
-                                        <span class="badge badge-success">AVAILABLE</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">404 Brrom Str, Fl2</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
+                                        <span class="badge badge-success">GOOD</span>
+                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Muara Baru</a></h3>
+                                        <span class="font-w400 text-white">5&#8451;</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-1.jpg" alt="image">
+                                    <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                     <div class="content">
-                                        <span class="badge badge-primary">Booked</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
+                                        <span class="badge badge-primary">WARMING</span>
+                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Jembrana</a></h3>
+                                        <span class="font-w400 text-white">6&#8451;</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-2.jpg" alt="image">
+                                    <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                     <div class="content">
-                                        <span class="badge badge-success">AVAILABLE</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">992 Green, HF</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
+                                        <span class="badge badge-primary">HOT</span>
+                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Bekasi Timur</a></h3>
+                                        <span class="font-w400 text-white">7&#8451;</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-3.jpg" alt="image">
+                                    <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                     <div class="content">
-                                        <span class="badge badge-success">AVAILABLE</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0">914 White Cream</h3>
-                                        <span class="font-w400 text-white">Type 234</span>
+                                        <span class="badge badge-primary">BURNED</span>
+                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0">Mimika</h3>
+                                        <span class="font-w400 text-white">8&#8451;</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-4.jpg" alt="image">
+                                    <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                     <div class="content">
-                                        <span class="badge badge-primary">Booked</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">172 Grey 22F, JF</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
+                                        <span class="badge badge-primary">BURNED</span>
+                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Gorontalo</a></h3>
+                                        <span class="font-w400 text-white">9&#8451;</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-5.jpg" alt="image">
+                                    <img src="<?= base_url() ?>templates/kamr/images/map.png" alt="image">
                                     <div class="content">
-                                        <span class="badge badge-primary">Booked</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
+                                        <span class="badge badge-success">GOOD</span>
+                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">Bengkulu</a></h3>
+                                        <span class="font-w400 text-white">4&#8451;</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-6.jpg" alt="image">
-                                    <div class="content">
-                                        <span class="badge badge-primary">Booked</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-7.jpg" alt="image">
-                                    <div class="content">
-                                        <span class="badge badge-primary">Booked</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="popular-rooms">
-                                    <img src="<?= base_url() ?>templates/kamr/images/roomgrid-img/pic-8.jpg" alt="image">
-                                    <div class="content">
-                                        <span class="badge badge-primary">Booked</span>
-                                        <h3 class="font-w500 text-white pt-3 pb-2 m-0"><a href="javascript:void(0);">235 Cream, G32</a></h3>
-                                        <span class="font-w400 text-white">Type 234</span>
-                                    </div>
-                                </div>
-                            </div>
+                            
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -205,7 +182,7 @@
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-header border-0 pb-0 flex-wrap">
-                                <h3 class="mb-1">Guest Activity</h3>
+                                <h3 class="mb-1">Temperature Chart</h3>
                                 <div class="card-action coin-tabs mt-3 mt-sm-0">
                                     <ul class="nav nav-tabs" role="tablist">
                                         <li class="nav-item">
@@ -227,18 +204,18 @@
                                             <svg class="me-2" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <rect y="0.716797" width="12" height="12" rx="4" fill="var(--primary)" />
                                             </svg>
-                                            Check In
+                                            Highest
                                         </span>
-                                        <h4 class="mb-0">457 Guest</h4>
+                                        <h4 class="mb-0">8&#8451;</h4>
                                     </div>
                                     <div class="d-flex align-items-center flex-lg-wrap flex-wrap">
                                         <span class=" squre me-3 d-flex align-items-center">
                                             <svg class="me-2" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <rect y="0.716797" width="12" height="12" rx="4" fill="#ff9d43" />
                                             </svg>
-                                            Check Out
+                                            Lowest
                                         </span>
-                                        <h4 class="mb-0">157 Guest</h4>
+                                        <h4 class="mb-0">2&#8451;</h4>
                                     </div>
                                 </div>
                                 <div class="tab-content">
@@ -285,378 +262,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3">
-                        <div class="card">
-                            <div class="card-header border-0 pb-0">
-                                <h3>Guest List</h3>
-                                <a href="javascript:void(0);" class="btn btn-primary light btn-sm">More</a>
-                            </div>
-                            <div class="card-body">
-                                <div class="flex-column d-block nav-pills gap dz-scroll" id="Customerslist1">
-                                    <div class="d-flex guest-list mb-4">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img1.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Jordyn George</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex guest-list mb-4">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img2.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Marilyn Bator</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex guest-list mb-4">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img3.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Jaxson Rosser</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex guest-list mb-4">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img4.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Davis Culhane</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex guest-list mb-4">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img5.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Lydia Westervelt</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex guest-list mb-4">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img5.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Lydia Westervelt</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex guest-list">
-                                        <img src="<?= base_url() ?>templates/kamr/images/img5.jpg" alt="image">
-                                        <div>
-                                            <h4 class="m-0">Lydia Westervelt</h4>
-                                            <span class="text-primary">#GS-2234</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-9">
-                        <div class="card">
-                            <div class="card-header border-0 pb-0 flex-wrap">
-                                <h3>Customer Reviews</h3>
-                                <div class="d-flex">
-                                    <select class="form-control default-select style-1 me-3 ms-0 border">
-                                        <option>Sort by Newest</option>
-                                        <option>Oldest</option>
-                                        <option>Newest</option>
-                                    </select>
-                                    <a href="javascript:void(0);" class="btn btn-primary light text-nowrap">View more</a>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-xl-4 col-sm-5">
-                                        <div class="nav review-tab flex-column d-block nav-pills gap dz-scroll mb-3" id="Customerslist2">
-                                            <a href="#v-pills-bella" data-bs-toggle="pill" class="nav-link active show">
-                                                <div class="d-flex guest-list">
-                                                    <img src="<?= base_url() ?>templates/kamr/images/review1.jpg" alt="image">
-                                                    <div>
-                                                        <h4 class="m-0">Bella Morgan</h4>
-                                                        <span>24min ago</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#v-pills-louis" data-bs-toggle="pill" class="nav-link">
-                                                <div class="d-flex guest-list">
-                                                    <img src="<?= base_url() ?>templates/kamr/images/review2.jpg" alt="image">
-                                                    <div>
-                                                        <h4 class="m-0">Louis Pattinson</h4>
-                                                        <span>24min ago</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#v-pills-hans" data-bs-toggle="pill" class="nav-link">
-                                                <div class="d-flex guest-list">
-                                                    <img src="<?= base_url() ?>templates/kamr/images/review3.jpg" alt="image">
-                                                    <div>
-                                                        <h4 class="m-0">Hans Takeshi</h4>
-                                                        <span>24min ago</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#v-pills-demian" data-bs-toggle="pill" class="nav-link">
-                                                <div class="d-flex guest-list">
-                                                    <img src="<?= base_url() ?>templates/kamr/images/review4.jpg" alt="image">
-                                                    <div>
-                                                        <h4 class="m-0">Demian Sarumaha</h4>
-                                                        <span>24min ago</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#v-pills-morgan" data-bs-toggle="pill" class="nav-link">
-                                                <div class="d-flex guest-list">
-                                                    <img src="<?= base_url() ?>templates/kamr/images/review1.jpg" alt="image">
-                                                    <div>
-                                                        <h4 class="m-0">Bella Morgan</h4>
-                                                        <span>24min ago</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#v-pills-morgan1" data-bs-toggle="pill" class="nav-link">
-                                                <div class="d-flex guest-list">
-                                                    <img src="<?= base_url() ?>templates/kamr/images/review1.jpg" alt="image">
-                                                    <div>
-                                                        <h4 class="m-0">Bella Morgan</h4>
-                                                        <span>24min ago</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-8 col-sm-7">
-                                        <div class="tab-content">
-                                            <div id="v-pills-bella" class="tab-pane r-tab fade active show">
-                                                <h3 class="font-w500">I love that room service</h3>
-                                                <ul class="star-review">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <p class="review-para mt-xl-4 mt-md-3 mt-sm-2 mt-2">
-                                                    We were totally refreshed and rejuvenated for the whole of next year and it was due to the relaxing stay at the hotel. The hotel is absolutely marvelous! We liked absolutely everything, starting from the breakfast through to the perfect room service including the cleanliness and extra services such as
-                                                </p>
-                                                <div class="mb-sm-2">
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm ">Great Service</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm mx-xl-3 mx-md-0">Recomended</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm ">Best Price</a>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between flex-md-wrap flex-sm-wrap flex-wrap mt-3 mt-sm-5 pt-xl-5 pt-lg-0 mb-0 mb-sm-0">
-                                                    <div class="d-flex guest-list mb-xl-0 mb-md-2 mb-sm-2 mb-2">
-                                                        <img src="<?= base_url() ?>templates/kamr/images/review1.jpg" alt="image">
-                                                        <div>
-                                                            <h4 class="m-0">Bella Morgan</h4>
-                                                            <span>24min ago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <a href="javascript:void(0);" class="btn btn-success border-0 me-sm-3 me-0">Accept
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM8.7898 15.0484L4.4107 10.6694L6.06781 9.01227L8.86648 11.8109L14.485 6.70344L16.062 8.43723L8.7898 15.0484Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="javascript:void(0);" class="btn btn-primary border-0">Reject
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM14.9719 13.8148L13.3148 15.4719L10 12.1571L6.68523 15.4719L5.02812 13.8148L8.34289 10.5L5.02812 7.18523L6.68523 5.52812L10 8.84289L13.3148 5.52812L14.9719 7.18523L11.6571 10.5L14.9719 13.8148Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="v-pills-louis" class="tab-pane r-tab fade">
-                                                <h3>I love that room service</h3>
-                                                <ul class="star-review">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <p class="review-para mt-xl-4 mt-md-3 mt-sm-2 mt-2">
-                                                    We were totally refreshed and rejuvenated for the whole of next year and it was due to the relaxing stay at the hotel. The hotel is absolutely marvelous! We liked absolutely everything, starting from the breakfast through to the perfect room service including the cleanliness and extra services such as
-                                                </p>
-                                                <div class="mb-sm-2">
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Great Service</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm mx-xl-3 mx-md-0">Recomended</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm ">Best Price</a>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between flex-md-wrap flex-sm-wrap flex-wrap mt-3 mt-sm-5 pt-xl-5 pt-lg-0 mb-3 mb-sm-0">
-                                                    <div class="d-flex guest-list mb-xl-0 mb-md-2 mb-sm-2 mb-2">
-                                                        <img src="<?= base_url() ?>templates/kamr/images/review2.jpg" alt="image">
-                                                        <div>
-                                                            <h4 class="m-0">Louis Pattinson</h4>
-                                                            <span>24min ago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <a href="javascript:void(0);" class="btn btn-success border-0 me-sm-3 me-0">Accept
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM8.7898 15.0484L4.4107 10.6694L6.06781 9.01227L8.86648 11.8109L14.485 6.70344L16.062 8.43723L8.7898 15.0484Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="javascript:void(0);" class="btn btn-primary border-0">Reject
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM14.9719 13.8148L13.3148 15.4719L10 12.1571L6.68523 15.4719L5.02812 13.8148L8.34289 10.5L5.02812 7.18523L6.68523 5.52812L10 8.84289L13.3148 5.52812L14.9719 7.18523L11.6571 10.5L14.9719 13.8148Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="v-pills-hans" class="tab-pane r-tab fade">
-                                                <h3>I love that room service</h3>
-                                                <ul class="star-review">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <p class="review-para mt-xl-4 mt-md-3 mt-sm-2 mt-2">
-                                                    We were totally refreshed and rejuvenated for the whole of next year and it was due to the relaxing stay at the hotel. The hotel is absolutely marvelous! We liked absolutely everything, starting from the breakfast through to the perfect room service including the cleanliness and extra services such as
-                                                </p>
-                                                <div class="mb-sm-2">
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Great Service</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm mx-xl-3 mx-md-0">Recomended</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Best Price</a>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between flex-md-wrap flex-sm-wrap flex-wrap mt-3 mt-sm-5 pt-xl-5 pt-lg-0 mb-0 mb-sm-0">
-                                                    <div class="d-flex guest-list mb-xl-0 mb-md-2 mb-sm-2 mb-2">
-                                                        <img src="<?= base_url() ?>templates/kamr/images/review3.jpg" alt="image">
-                                                        <div>
-                                                            <h4 class="m-0">Hans Takeshi</h4>
-                                                            <span>24min ago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <a href="javascript:void(0);" class="btn btn-success border-0 me-sm-3 me-0">Accept
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM8.7898 15.0484L4.4107 10.6694L6.06781 9.01227L8.86648 11.8109L14.485 6.70344L16.062 8.43723L8.7898 15.0484Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="javascript:void(0);" class="btn btn-primary border-0">Reject
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM14.9719 13.8148L13.3148 15.4719L10 12.1571L6.68523 15.4719L5.02812 13.8148L8.34289 10.5L5.02812 7.18523L6.68523 5.52812L10 8.84289L13.3148 5.52812L14.9719 7.18523L11.6571 10.5L14.9719 13.8148Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="v-pills-demian" class="tab-pane r-tab fade">
-                                                <h3>I love that room service</h3>
-                                                <ul class="star-review">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <p class="review-para mt-xl-4 mt-md-3 mt-sm-2 mt-2">
-                                                    We were totally refreshed and rejuvenated for the whole of next year and it was due to the relaxing stay at the hotel. The hotel is absolutely marvelous! We liked absolutely everything, starting from the breakfast through to the perfect room service including the cleanliness and extra services such as
-                                                </p>
-                                                <div class="mb-sm-2">
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Great Service</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm mx-xl-3 mx-md-0">Recomended</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Best Price</a>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between flex-md-wrap flex-sm-wrap flex-wrap mt-3 mt-sm-5 pt-xl-5 pt-lg-0 mb-0 mb-sm-0">
-                                                    <div class="d-flex guest-list  mb-xl-0 mb-md-2 mb-sm-2 mb-2">
-                                                        <img src="<?= base_url() ?>templates/kamr/images/review4.jpg" alt="image">
-                                                        <div>
-                                                            <h4 class="m-0">Demian Sarumaha</h4>
-                                                            <span>24min ago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <a href="javascript:void(0);" class="btn btn-success border-0 me-sm-3 me-0">Accept
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM8.7898 15.0484L4.4107 10.6694L6.06781 9.01227L8.86648 11.8109L14.485 6.70344L16.062 8.43723L8.7898 15.0484Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="javascript:void(0);" class="btn btn-danger border-0">Reject
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM14.9719 13.8148L13.3148 15.4719L10 12.1571L6.68523 15.4719L5.02812 13.8148L8.34289 10.5L5.02812 7.18523L6.68523 5.52812L10 8.84289L13.3148 5.52812L14.9719 7.18523L11.6571 10.5L14.9719 13.8148Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="v-pills-morgan" class="tab-pane r-tab fade">
-                                                <h3>I love that room service</h3>
-                                                <ul class="star-review">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <p class="review-para mt-xl-4 mt-md-3 mt-sm-2 mt-2">
-                                                    We were totally refreshed and rejuvenated for the whole of next year and it was due to the relaxing stay at the hotel. The hotel is absolutely marvelous! We liked absolutely everything, starting from the breakfast through to the perfect room service including the cleanliness and extra services such as
-                                                </p>
-                                                <div>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Great Service</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm mx-xl-3 mx-md-0">Recomended</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm ">Best Price</a>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between flex-md-wrap flex-sm-wrap flex-wrap mt-3 mt-sm-5 pt-xl-5 pt-lg-0 mb-0 mb-sm-0">
-                                                    <div class="d-flex guest-list mb-xl-0 mb-md-2 mb-sm-2 mb-2">
-                                                        <img src="<?= base_url() ?>templates/kamr/images/review1.jpg" alt="image">
-                                                        <div>
-                                                            <h4 class="m-0">Bella Morgan</h4>
-                                                            <span>24min ago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <a href="javascript:void(0);" class="btn btn-success border-0 me-sm-3 me-0">Accept
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM8.7898 15.0484L4.4107 10.6694L6.06781 9.01227L8.86648 11.8109L14.485 6.70344L16.062 8.43723L8.7898 15.0484Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="javascript:void(0);" class="btn btn-primary border-0">Reject
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM14.9719 13.8148L13.3148 15.4719L10 12.1571L6.68523 15.4719L5.02812 13.8148L8.34289 10.5L5.02812 7.18523L6.68523 5.52812L10 8.84289L13.3148 5.52812L14.9719 7.18523L11.6571 10.5L14.9719 13.8148Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="v-pills-morgan1" class="tab-pane r-tab fade">
-                                                <h3>I love that room service</h3>
-                                                <ul class="star-review">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <p class="review-para mt-xl-4 mt-md-3 mt-sm-2 mt-2">
-                                                    We were totally refreshed and rejuvenated for the whole of next year and it was due to the relaxing stay at the hotel. The hotel is absolutely marvelous! We liked absolutely everything, starting from the breakfast through to the perfect room service including the cleanliness and extra services such as
-                                                </p>
-                                                <div class="mb-sm-2">
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Great Service</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm mx-xl-3 mx-md-0">Recomended</a>
-                                                    <a href="javascript:void(0);" class="btn btn-dark light border-0 mb-2 btn-sm">Best Price</a>
-                                                </div>
-                                                <div class="d-flex align-items-center justify-content-between flex-md-wrap flex-sm-wrap flex-wrap mt-3 mt-sm-5 pt-xl-5 pt-lg-0 mb-0 mb-sm-0">
-                                                    <div class="d-flex guest-list mb-xl-0 mb-md-2 mb-sm-2 mb-2">
-                                                        <img src="<?= base_url() ?>templates/kamr/images/review1.jpg" alt="image">
-                                                        <div>
-                                                            <h4 class="m-0">Bella Morgan</h4>
-                                                            <span>24min ago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <a href="javascript:void(0);" class="btn btn-success border-0 me-sm-3 me-0">Accept
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM8.7898 15.0484L4.4107 10.6694L6.06781 9.01227L8.86648 11.8109L14.485 6.70344L16.062 8.43723L8.7898 15.0484Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="javascript:void(0);" class="btn btn-primary border-0">Reject
-                                                            <svg class="ms-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 0.5C4.50742 0.5 0 5.00742 0 10.5C0 15.9926 4.50742 20.5 10 20.5C15.4926 20.5 20 15.9926 20 10.5C20 5.00742 15.4926 0.5 10 0.5ZM14.9719 13.8148L13.3148 15.4719L10 12.1571L6.68523 15.4719L5.02812 13.8148L8.34289 10.5L5.02812 7.18523L6.68523 5.52812L10 8.84289L13.3148 5.52812L14.9719 7.18523L11.6571 10.5L14.9719 13.8148Z" fill="white" />
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
