@@ -1,14 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Admin extends CI_Controller {
+class Client extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
 		// check_login();
 		// check_admin();
-		$this->load->model('MainModel');
-		$this->load->model('UserModel');
+		$this->load->model('ClientModel');
 		// print_r($this->session->userdata('userlogin'));die;
 	}
 
@@ -16,30 +15,23 @@ class Admin extends CI_Controller {
 	public function index()
 	{
 		$data = array(
-			'user'=>$this->MainModel->get_user()
+			'client'		=> $this->ClientModel->get()
 			
 		);
 
-		$v['admin_title'] 	= 'Menu';
-		$v['script']		= $this->load->view('script/script_dashboard', $data, TRUE);
+		$v['admin_title'] 	= 'Client';
+		$v['script']		= $this->load->view('script/script_client', $data, TRUE);
 		
 		$this->load->view('templates/header', $v);
 		$this->load->view('templates/topbar', $data);
 		$this->load->view('templates/leftbar');
-		$this->load->view('dashboard/dashboard_view');
+		$this->load->view('client/client_view');
 		$this->load->view('templates/footer');
 	}
 
 	public function detail($id=false)
 	{
-		// print_r($id);
-		$data = array(
-			'user'=>$this->MainModel->get_user_detail($id)
-			
-		);
-
-		print_r($data['userx	']);
+		print_r($id);
 	}
-
 
 }

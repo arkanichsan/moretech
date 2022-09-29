@@ -29,6 +29,7 @@
 	<link href="<?= base_url(); ?>templates/kamr/vendor/datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
     <link href="<?= base_url(); ?>templates/kamr/vendor/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css">
     <link href="<?= base_url(); ?>templates/kamr/css/style.css" rel="stylesheet">
     <link href="<?= base_url(); ?>templates/kamr/css/custom.css" rel="stylesheet">
 	
@@ -53,21 +54,4 @@
     ***********************************-->
     <div id="main-wrapper">
 
-        <!--**********************************
-            Nav header start
-        ***********************************-->
-        <div class="nav-header">
-            <a href="<?= base_url(); ?>admin" class="brand-logo" style="color: #2d3134;">
-              MoReTech
-              <!-- <img src="<?= base_url(); ?>images/smt.png" style="width: 80%;"> -->
-            </a>
-            <div class="nav-control">
-                <div class="hamburger">
-                    <span class="line"></span><span class="line"></span><span class="line"></span>
-                </div>
-            </div>
-        </div>
-        <!--**********************************
-            Nav header end
-        ***********************************-->
 		

@@ -1,7 +1,26 @@
+
 <!--**********************************
-            Header start
-        ***********************************-->
-        <div class="header">
+	Nav header start
+***********************************-->
+<div class="nav-header">
+	<a href="<?= base_url(); ?>admin" class="brand-logo" style="color: #2d3134;">
+		MoReTech
+		<!-- <img src="<?= base_url(); ?>images/smt.png" style="width: 80%;"> -->
+	</a>
+	<div class="nav-control">
+		<div class="hamburger">
+			<span class="line"></span><span class="line"></span><span class="line"></span>
+		</div>
+	</div>
+</div>
+<!--**********************************
+	Nav header end
+***********************************-->
+		
+<!--**********************************
+	Header start
+***********************************-->
+<div class="header">
 	<div class="header-content">
 		<nav class="navbar navbar-expand">
 			<div class="collapse navbar-collapse justify-content-between">
