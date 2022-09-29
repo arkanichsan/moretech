@@ -54,21 +54,4 @@
     ***********************************-->
     <div id="main-wrapper">
 
-        <!--**********************************
-            Nav header start
-        ***********************************-->
-        <div class="nav-header">
-            <a href="<?= base_url(); ?>admin" class="brand-logo" style="color: #2d3134;">
-              MoReTech
-              <!-- <img src="<?= base_url(); ?>images/smt.png" style="width: 80%;"> -->
-            </a>
-            <div class="nav-control">
-                <div class="hamburger">
-                    <span class="line"></span><span class="line"></span><span class="line"></span>
-                </div>
-            </div>
-        </div>
-        <!--**********************************
-            Nav header end
-        ***********************************-->
 		
