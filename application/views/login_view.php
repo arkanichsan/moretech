@@ -9,7 +9,7 @@
                                 <div class="auth-form">
                                     <div class="text-center mb-3">
                                         <a href="index.html">
-                                            <img width="30%" class="img-fluid" src="<?= base_url() ?>images/smt.png">
+                                            <img width="30%" class="img-fluid" src="<?= base_url() ?>images/logo/logo brand.svg">
                                         </a>
                                     </div>
                                     <h4 class="text-center mb-4">Sign in your account</h4>
