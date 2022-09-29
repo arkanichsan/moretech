@@ -18,4 +18,13 @@ class MainModel extends CI_Model
     return $data;
   }
 
+  function get_user_detail($id)
+  {
+    $data = $this->db
+      ->from('user')
+      ->where('id', $id)
+      ->get()->row_array();
+    return $data;
+  }
+
 }

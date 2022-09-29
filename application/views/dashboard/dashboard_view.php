@@ -1,4 +1,4 @@
-<!--**********************************
+ <!--**********************************
             Content body start
         ***********************************-->
 <div class="content-body">
@@ -13,6 +13,7 @@
             <div class="col-xl-12">
                 <table class="table table-bordered">
                     <tr>
+
                         <th>Project id</th>
                         <th>Project Name</th>
                         <th>Project Location</th>
@@ -25,7 +26,7 @@
                         <td><?php echo $u['nama']; ?></td>
                         <td><?php echo $u['alamat']; ?></td>
                         <td><?php echo $u['telpon']; ?></td>
-                        <td><a href="<?= base_url().'admin/detail/'.$u['telpon'] ?>">Detail</a></td>
+                        <td><a href="<?= base_url().'admin/detail/'.$u['id']?>">Detail</a></td>
                     </tr>
                 <?php } ?>
 

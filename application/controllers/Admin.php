@@ -32,7 +32,14 @@ class Admin extends CI_Controller {
 
 	public function detail($id=false)
 	{
-		print_r($id);
+		// print_r($id);
+		$data = array(
+			'user'=>$this->MainModel->get_user_detail($id)
+			
+		);
+
+		print_r($data['userx	']);
 	}
+
 
 }

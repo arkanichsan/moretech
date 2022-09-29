@@ -1,0 +1,12 @@
+form input: nama project, jenis project
+            lokasi
+            nama client
+            pilih point monitoring (multicheck button)
+
+form user (role): superadmin [c,r,u,d]
+                  admin [c,r,u]
+                  user [r]
+
+signup:  nama, alamat, email, password, no telp, nama perusahaan
+
+login: email, password
