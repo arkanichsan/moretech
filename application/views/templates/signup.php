@@ -13,7 +13,7 @@
                                 <div class="row">
                                     <div class="col-lg-12 ">
                                         <div class="form-group">
-                                            <input type="text" name="email_user" id="name" class="form-control" required data-error="Please enter your Username or Email" placeholder="Username">
+                                            <input type="text" name="email_user" id="name" class="form-control" required data-error="Please enter your Username or Email" placeholder="Username or Email">
                                             <input type="hidden" name="ref" value="<?= (isset($_GET['ref']) ? str_replace("||", "&", $_GET['ref']) : "") ?>">
                                         </div>
                                     </div>
@@ -22,7 +22,7 @@
                                             <input class="form-control" type="password" name="password_user" placeholder="Password">
                                         </div>
                                     </div>
-                                    <div style="margin-top: 10px;" class="col-lg-6 col-sm-6 form-condition">
+                                    <div class="col-lg-6 col-sm-6 form-condition">
                                         <div class="agree-label">
                                             <input type="checkbox" id="chb1">
                                             <label for="chb1">
@@ -30,7 +30,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div style="margin-top: 10px;" class="col-lg-6 col-sm-6">
+                                    <div class="col-lg-6 col-sm-6">
                                         <a class="forget" href="<?= base_url() ?>forgot">Forgot My Password?</a>
                                     </div>
                                     <div class="col-lg-12 col-md-12 text-center">

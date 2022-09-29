@@ -79,7 +79,7 @@ class Admin extends CI_Controller {
 			
 		);
 
-		print_r($data['user']);
+		print_r($data['userx	']);
 	}
 
 
