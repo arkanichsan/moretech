@@ -10,3 +10,9 @@ form user (role): superadmin [c,r,u,d]
 
 
 login: email, password *
+
+29/09/22: Primary color
+          logo dahboard & signin
+          menu signin
+          detail kecil
+          map
