@@ -10,8 +10,8 @@
         layers: [layer],
         target: 'map',
         view: new ol.View({
-            center: [-6.25006052264367, 107.00856058399],
-            zoom: 3
+            center: ol.proj.fromLonLat([130.67, -3.39]),
+            zoom: 8
         })
     });
 
