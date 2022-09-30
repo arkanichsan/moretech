@@ -21,6 +21,7 @@ class Client extends CI_Controller {
 
 		$v['admin_title'] 	= 'Client';
 		$v['script']		= $this->load->view('script/script_client', $data, TRUE);
+		$v['copyright'] 	= $this->load->view('templates/copyright', $data, TRUE);
 		
 		$this->load->view('templates/header', $v);
 		$this->load->view('templates/topbar', $data);

@@ -8,7 +8,7 @@
 
             <div class="col-xl-12">
 
-                <div id="map"></div>
+                <div id="map" style="width: 100%; height: 400px"></div>
                 <div style="display: none;">
                     <!-- Clickable label for Vienna -->
                     <a class="overlay" id="vienna" target="_blank" href="http://en.wikipedia.org/wiki/Vienna">Vienna</a>
