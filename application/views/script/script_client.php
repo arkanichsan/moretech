@@ -9,8 +9,13 @@
     var map = new ol.Map({
         layers: [layer],
         target: 'map',
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM()
+            })
+        ],
         view: new ol.View({
-            center: ol.proj.fromLonLat([130.67, -3.39]),
+            center: ol.proj.fromLonLat([60.67, -2.39]),
             zoom: 8
         })
     });

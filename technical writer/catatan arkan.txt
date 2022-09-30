@@ -16,3 +16,5 @@ login: email, password *
           menu signin
           detail kecil
           map
+
+30/09/22: Registration Explorer Page

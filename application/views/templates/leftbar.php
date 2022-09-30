@@ -54,6 +54,8 @@
                             <li><a href="#">Client 3</a></li>
                         </ul>
                     </li>
+
+                    <i><a href="#">New Explorer</a></i>
                 </ul>
             </li>
 
