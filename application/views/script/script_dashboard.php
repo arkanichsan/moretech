@@ -11,7 +11,6 @@
     });
 
     var map = new ol.Map({
-        layers: [layer],
         target: 'map',
         view: new ol.View({
             center: [-6.25006052264367, 107.00856058399],

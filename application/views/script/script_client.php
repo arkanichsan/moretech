@@ -7,7 +7,6 @@
     });
 
     var map = new ol.Map({
-        layers: [layer],
         target: 'map',
         layers: [
             new ol.layer.Tile({
