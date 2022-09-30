@@ -11,14 +11,18 @@
     });
 
     var map = new ol.Map({
-        target: 'map',
-        view: new ol.View({
-            center: [-6.25006052264367, 107.00856058399],
-            zoom: 3
-        })
-    });
-
-    var pos = ol.proj.fromLonLat([106.92319613, -6.297489017305115]);
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    view: new ol.View({
+      center: ol.proj.fromLonLat([121.62, -1.66]),
+      zoom: 4.7
+    })
+  });
+    var pos = ol.proj.fromLonLat([113.9213, 113.9213]);
 
     // Vienna marker
     var marker = new ol.Overlay({

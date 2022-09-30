@@ -2,22 +2,23 @@
 <script src="https://openlayers.org/en/v3.20.1/build/ol.js"></script>
 
 <script>
+    
     var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
     });
 
     var map = new ol.Map({
-        target: 'map',
-        layers: [
-            new ol.layer.Tile({
-                source: new ol.source.OSM()
-            })
-        ],
-        view: new ol.View({
-            center: ol.proj.fromLonLat([60.67, -2.39]),
-            zoom: 8
-        })
-    });
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    view: new ol.View({
+      center: ol.proj.fromLonLat([7.49918, 51.35847]),
+      zoom: 10
+    })
+  });
 
     var pos = ol.proj.fromLonLat([106.92319613, -6.297489017305115]);
 
