@@ -55,7 +55,7 @@
                         </ul>
                     </li>
 
-                    <i><a href="#">New Explorer</a></i>
+                    <i><a href="<?= base_url("formexplorer"); ?>">Add New Explorer</a></i>
                 </ul>
             </li>
 
