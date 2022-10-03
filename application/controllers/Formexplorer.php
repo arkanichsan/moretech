@@ -31,16 +31,16 @@ class FormExplorer extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	// public function detail($id=false)
-	// {
-	// 	// print_r($id);
-	// 	$data = array(
-	// 		'user'=>$this->MainModel->get_user_detail($id)
+	public function fe_action($id=false)
+	{
+		print_r($_GET);
+		// $data = array(
+		// 	'user'=>$this->MainModel->get_user_detail($id)
 			
-	// 	);
+		// );
 
-	// 	print_r($data['userx	']);
-	// }
+		// print_r($data['userx	']);
+	}
 
 
 }
