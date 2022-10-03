@@ -127,13 +127,8 @@
 
   </div>
   <!--**********************************
-        Main wrapper end
-    ***********************************-->
-
-  <!--**********************************
-        Scripts
-    ***********************************-->
-  <!-- Required vendors -->
+            Content body end
+        ***********************************-->  <!-- Required vendors -->
   <script src="http://localhost/moretech/templates/kamr/vendor/global/global.min.js"></script>
   <script src="http://localhost/moretech/templates/kamr/vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
   <script src="http://localhost/moretech/templates/kamr/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
