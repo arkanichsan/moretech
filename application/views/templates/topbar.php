@@ -25,7 +25,7 @@
 			<div class="collapse navbar-collapse justify-content-between">
 				<div class="header-left">
 					<div class="headaer-title">
-						<h1 class="font-w600 mb-0">Dashboard</h1>
+						<h1 class="font-w600 mb-0"><?= $admin_title ?></h1>
 					</div>
 				</div>
 				<ul class="navbar-nav header-right">
