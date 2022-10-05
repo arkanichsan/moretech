@@ -22,8 +22,12 @@
                      <input name="project_type" class="form-control">
                    </div>
                    <div class="mb-3">
-                     <label class="mb-1"><strong>Location</strong></label>
+                     <label class="mb-1"><strong>Location Name</strong></label>
                      <input name="project_location" class="form-control">
+                   </div>
+                   <div class="mb-3">
+                     <label class="mb-1"><strong>Location Coordinate</strong></label>
+                     <input name="project_longlat" class="form-control">
                    </div>
                    <div class="mb-3">
                      <label class="mb-1"><strong>Client Name</strong></label>
