@@ -20,7 +20,7 @@ class Admin extends CI_Controller {
 			
 		);
 
-		$v['admin_title'] 	= 'Menu';
+		$v['admin_title'] 	= 'Dashboard';
 		$v['script']		= $this->load->view('script/script_dashboard', $data, TRUE);
 		$v['copyright'] 	= $this->load->view('templates/copyright', $data, TRUE);
 		
