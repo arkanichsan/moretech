@@ -2,7 +2,6 @@
 <script src="https://openlayers.org/en/v3.20.1/build/ol.js"></script>
 
 <script>
-    
     var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
     });
