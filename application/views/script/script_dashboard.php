@@ -11,17 +11,17 @@
     });
 
     var map = new ol.Map({
-    target: 'map',
-    layers: [
-      new ol.layer.Tile({
-        source: new ol.source.OSM()
-      })
-    ],
-    view: new ol.View({
-      center: ol.proj.fromLonLat([121.62, -1.66]),
-      zoom: 4.7
-    })
-  });
+        target: 'map',
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM()
+            })
+        ],
+        view: new ol.View({
+            center: ol.proj.fromLonLat([121.62, -1.66]),
+            zoom: 4.7
+        })
+    });
     var pos = ol.proj.fromLonLat([113.9213, 113.9213]);
 
     // Vienna marker
@@ -63,41 +63,49 @@
         });
         $(element).popover('show');
     });
+
+    map.on('wheel', function(evt) {
+        wheelZoomHandler(evt);
+    });
+    wheelZoomHandler(evt); {
+        if (ol.events.condition.shiftKeyOnly(evt) !== true) {
+            evt.browserEvent.preventDefault();
+        }};
 </script>
 <script>
     var swiper = new Swiper(".front-view-slider", {
         slidesPerView: 5,
         spaceBetween: 30,
         centeredSlides: true,
-        loop:true,
+        loop: true,
         pagination: {
-        el: ".room-swiper-pagination",
-        clickable: true,
+            el: ".room-swiper-pagination",
+            clickable: true,
         },
         breakpoints: {
-        360: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
-        575: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-        },
-        768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-        },
-        1024: {
-            slidesPerView: 3,
-        },
-        1400: {
-            slidesPerView: 5,
-            spaceBetween: 20,
-        },
-        1600: {
-            slidesPerView: 5,
-            spaceBetween: 30,
-        },
+            360: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            575: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+            1400: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+            },
+            1600: {
+                slidesPerView: 5,
+                spaceBetween: 30,
+            },
         }
     });
 </script>

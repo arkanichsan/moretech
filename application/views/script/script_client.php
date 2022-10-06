@@ -2,11 +2,13 @@
 <script src="https://openlayers.org/en/v3.20.1/build/ol.js"></script>
 
 <script>
+    
     var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
     });
 
     var map = new ol.Map({
+    mouseWheelZoom: false,
     target: 'map',
     layers: [
       new ol.layer.Tile({
@@ -14,6 +16,7 @@
       })
     ],
     view: new ol.View({
+      mouseWheelZoom: false,
       center: ol.proj.fromLonLat([7.49918, 51.35847]),
       zoom: 10
     })
@@ -53,6 +56,7 @@
         popup.setPosition(coordinate);
         // the keys are quoted to prevent renaming in ADVANCED mode.
         $(element).popover({
+            'mouseWheelZoom': 'false',
             'placement': 'top',
             'animation': false,
             'html': true,

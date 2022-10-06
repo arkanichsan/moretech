@@ -7,7 +7,7 @@
          <div class="row">
 
              <div class="col-xl-12">
-                 <div id="map" style="width: 100%, height 400px"></div>
+                 <div tabindex="1" class="map" id="map" style="width: 100%, height 400px"></div>
 
              </div>
 
