@@ -23140,8 +23140,8 @@ button {
   border-color: var(--primary);
   background-color: var(--primary); }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    border-color: var(--primary-hover);
-    background-color: var(--primary-hover); }
+    border-color: #ffd482;
+    background-color: #ffd482; }
   .btn-primary:focus {
     box-shadow: 0 0 0 0.25rem var(--rgba-primary-5); }
   .btn-primary:disabled, .btn-primary.disabled {

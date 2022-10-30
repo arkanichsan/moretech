@@ -12,7 +12,7 @@ class MainModel extends CI_Model
   function get_user()
   {
     $data = $this->db
-      ->from('user')
+      ->from('account')
       // ->where('role_user <', 3)
       ->get()->result_array();
     return $data;
@@ -21,8 +21,8 @@ class MainModel extends CI_Model
   function get_user_detail($id)
   {
     $data = $this->db
-      ->from('user')
-      ->where('id', $id)
+      ->from('account')
+      ->where('UID', $id)
       ->get()->row_array();
     return $data;
   }

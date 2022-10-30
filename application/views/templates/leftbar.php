@@ -31,31 +31,19 @@
                 </a>
                 <ul aria-expanded="false">
                     <li>
-                        <a class="has-arrow cursor" href="#" aria-expanded="false">By Projects</a>
+                        <a class="has-arrow cursor" href="#" aria-expanded="false">Main Building</a>
                         <ul class="mm-collapse" aria-expanded="false">
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                            <li><a href="#">Project 3</a></li>
+                            <li><a href="<?= base_url(); ?>building">Building View</a></li>
+                            <li><a href="<?= base_url(); ?>firstroom">Room 1</a></li>
+                            <li><a href="<?= base_url(); ?>secondroom">Room 2</a></li>
+                            <!-- <li><a href="#">Project 3</a></li> -->
                         </ul>
                     </li>
                     <li>
-                        <a class="has-arrow cursor" href="#" aria-expanded="false">By Locations</a>
-                        <ul class="mm-collapse" aria-expanded="false">
-                            <li><a href="#">Location 1</a></li>
-                            <li><a href="#">Location 2</a></li>
-                            <li><a href="#">Location 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="has-arrow cursor" href="#" aria-expanded="false">Clients</a>
-                        <ul class="mm-collapse" aria-expanded="false">
-                            <li><a href="#">Client 1</a></li>
-                            <li><a href="#">Client 2</a></li>
-                            <li><a href="#">Client 3</a></li>
-                        </ul>
+                        <a class="metismenu" href="<?= base_url(); ?>history" aria-expanded="false">History</a>
                     </li>
 
-                    <i><a href="<?= base_url("formexplorer"); ?>">Add New Explorer</a></i>
+                    <li><a href="<?= base_url("formexplorer"); ?>">Add New Explorer</a></li>
                 </ul>
             </li>
 
