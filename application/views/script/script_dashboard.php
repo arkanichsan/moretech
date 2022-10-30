@@ -4,6 +4,8 @@
 <script src="<?= base_url() ?>templates/kamr/vendor/chart.js/Chart.bundle.min.js"></script>
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
 <script src="https://openlayers.org/en/v3.20.1/build/ol.js"></script>
+<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
 
 <script>
     var map = new ol.Map({
@@ -19,6 +21,35 @@
         })
     });
     var pos = ol.proj.fromLonLat([113.9213, 113.9213]);
+
+    var layer = new ol.layer.Vector({
+        source: new ol.source.Vector({
+            features: [
+                new ol.Feature({
+                    geometry: new ol.geom.Point
+                    (ol.proj.fromLonLat([105.25936749853341, -5.434311380205979]))
+                })
+            ]
+        }),
+            style: new ol.style.Style({
+                image: new ol.style.Icon({
+                    src:'images/location.png'
+                })
+            })
+    });
+
+    map.on('singleclick', function (event) {
+     if (map.hasFeatureAtPixel(event.pixel) === true) {
+         var coordinate = event.coordinate;
+
+         content.innerHTML = '<b>Hello world!</b><br />I am a popup.';
+         overlay.setPosition(coordinate);
+     } else {
+         overlay.setPosition(undefined);
+         closer.blur();
+     }
+ });
+    map.addLayer(layer);
 
     // Vienna marker
     var marker = new ol.Overlay({
@@ -66,7 +97,60 @@
     wheelZoomHandler(evt); {
         if (ol.events.condition.shiftKeyOnly(evt) !== true) {
             evt.browserEvent.preventDefault();
-        }};
+        }
+    };
+
+    var iconFeature = new Feature({
+        geometry: new Point([0, 0]),
+        name: 'Null Island',
+        population: 4000,
+        rainfall: 500,
+    });
+
+    var iconStyle = new Style({
+        image: new Icon({
+            anchor: [0.5, 46],
+            anchorXUnits: 'fraction',
+            anchorYUnits: 'pixels',
+            src: 'image/5968841.png',
+        }),
+    });
+
+    iconFeature.setStyle(iconStyle);
+
+    var vectorSource = new VectorSource({
+        features: [iconFeature],
+    });
+
+    var vectorLayer = new VectorLayer({
+        source: vectorSource,
+    });
+
+    var rasterLayer = new TileLayer({
+        source: new TileJSON({
+            url: 'https://a.tiles.mapbox.com/v3/aj.1x1-degrees.json?secure=1',
+            crossOrigin: '',
+        }),
+    });
+
+     var container = document.getElementById('popup');
+    var content = document.getElementById('popup-content');
+    var closer = document.getElementById('popup-closer');
+
+    var overlay = new ol.Overlay({
+        element: container,
+        autoPan: true,
+        autoPanAnimation: {
+            duration: 250
+        }
+    });
+    map.addOverlay(overlay);
+
+    closer.onclick = function() {
+        overlay.setPosition(undefined);
+        closer.blur();
+        return false;
+    };
 </script>
 <script>
     var swiper = new Swiper(".front-view-slider", {
