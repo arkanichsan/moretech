@@ -121,18 +121,6 @@
                      </div>
                  </div>
              </div>
-
-             <div class="col-xl-6">
-                 <div class="card">
-                     <div class="card-header border-0 pb-0 flex-wrap">
-                         <h3 class="mt-2">Visitor</h3>
-                     </div>
-                     <div class="card-body pt-2 pb-2">
-                         <h2 class="text">12,456</h2>
-                         <div id="columnChart" class="crd-coloum mt-5"></div>
-                     </div>
-                 </div>
-             </div>
              <div class="col-md-12">
                  <a type="button" class="btn btn-primary col-md-12 xl-12" style="color: #fff;" href="<?= base_url(); ?>secondroom">Click to view Room 2 Monitoring</a>
              </div>
