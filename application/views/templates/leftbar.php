@@ -36,15 +36,35 @@
                 </a>
             </li>
 
-            <li><a href="<?= base_url() ?>login">
+            <li><a class="cursor" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" >
                     <i class="bi-unlock-fill"></i>
                     <span class="nav-text">Logout</span>
                 </a>
+                
             </li>
 
         </ul>
         <div class="copyright">
             <h6>Moretech Admin Dashboard <span class="fs-14 font-w400">© 2022 All Rights Reserved</span></h6>
+        </div>
+        
+               
+    </div>
+</div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModalCenter">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Are you sure ?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal">
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" href="<?= base_url() ?>login/remove">Yes</a>
+            </div>
         </div>
     </div>
 </div>

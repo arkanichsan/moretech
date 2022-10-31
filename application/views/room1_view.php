@@ -32,7 +32,7 @@
                                  <div class="d-flex align-items-end justify-content-xl-start justify-content-between mb-xl-0 mb-3">
                                  </div>
                              </div>
-                             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                  <div class="card trading mb-sm-3 mb-6">
                                      <div class="card-body">
                                          <div class="income-data d-flex justify-content-between align-items-center mb-sm-0 mb-2 ps-lg-0">
@@ -45,7 +45,7 @@
                                      </div>
                                  </div>
                              </div>
-                             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                             <!-- <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                  <div class="card booking mb-3">
                                      <div class="card-body">
                                          <div class="income-data d-flex justify-content-between align-items-center mb-sm-0 mb-2  mb-sm-0 mb-2 ps-lg-0 ">
@@ -61,14 +61,14 @@
                                          </div>
                                      </div>
                                  </div>
-                             </div>
+                             </div> -->
                          </div>
                      </div>
                  </div>
              </div>
          </div>
          <div class="row">
-             <div class="col-xl-6">
+             <div class="col-xl-12">
                  <div class="card">
                      <div class="card-header border-0 pb-0 flex-wrap">
                          <h3 class="mb-1">Temperature Chart</h3>
