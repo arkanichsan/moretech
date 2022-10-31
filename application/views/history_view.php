@@ -12,7 +12,18 @@
                                 <div class="text-center"></div>
                                 <div class="col-lg-12">
                             <div style="border-color:#fff" class="card-header">
-                                <h4 class="card-title">History Table</h4>
+                                <h4 class="card-title">History Table <div class="btn-group mb-1">
+                                        <button type="button" class="btn btn-secondary">Secondary</button>
+                                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Room 1</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Separated link</a>
+                                        </div>
+                                    </div></h4>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">

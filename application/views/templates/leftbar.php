@@ -25,34 +25,23 @@
                 </a>
 
             </li>
-            <li><a class="has-arrow cursor" aria-expanded="false">
-                    <i class="flaticon-050-info"></i>
-                    <span class="nav-text">Explorer</span>
+            <li><a href="<?= base_url(); ?>building" aria-expanded="false">
+                    <i class="bi bi-building"></i>
+                    <span class="nav-text">Building</span>
                 </a>
-                <ul aria-expanded="false">
-                    <li>
-                        <a class="has-arrow cursor" href="#" aria-expanded="false">Main Building</a>
-                        <ul class="mm-collapse" aria-expanded="false">
-                            <li><a href="<?= base_url(); ?>building">Building View</a></li>
-                            <li><a href="<?= base_url(); ?>firstroom">Room 1</a></li>
-                            <li><a href="<?= base_url(); ?>secondroom">Room 2</a></li>
-                            <!-- <li><a href="#">Project 3</a></li> -->
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="metismenu" href="<?= base_url(); ?>history" aria-expanded="false">History</a>
-                    </li>
-
-                    <li><a href="<?= base_url("formexplorer"); ?>">Add New Explorer</a></li>
-                </ul>
+            </li>
+            <li><a href="<?= base_url(); ?>history" aria-expanded="false">
+                    <i class="bi bi-clock-history"></i>
+                    <span class="nav-text">History</span>
+                </a>
             </li>
 
-            <li><a href="#">
+            <li><a href="<?= base_url() ?>login">
                     <i class="bi-unlock-fill"></i>
                     <span class="nav-text">Logout</span>
                 </a>
             </li>
-            
+
         </ul>
         <div class="copyright">
             <h6>Moretech Admin Dashboard <span class="fs-14 font-w400">© 2022 All Rights Reserved</span></h6>

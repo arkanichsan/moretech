@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $uri = base_url();
 $host = "wellracom.cc5wghrbi86u.ap-southeast-1.rds.amazonaws.com";
-$username = "u4814692_dev";
-$password = "100%Id/En";
-$database = "u4814692_moretech";
+$username = "iotstar";
+$password = "wellracom";
+$database = "manager";
 
 if(strpos($uri, 'localhost') !== false) {
 	$username = "iotstar";

@@ -12,11 +12,11 @@
                                             <img width="30%" class="img-fluid" src="<?= base_url() ?>images/logo/logo brand.svg">
                                         </a>
                                     </div>
-                                    <h4 class="text-center mb-4">Sign in your account</h4>
+                                    <h4 class="text-center mb-4">Sign in to your account</h4>
                                     <form method="POST" action="<?= base_url().'login/login_action' ?>">
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Email</strong></label>
-                                            <input type="text" name="username" class="form-control" value="hello@example.com">
+                                            <input type="text" name="username" class="form-control" value="Username">
                                         </div>
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Password</strong></label>
@@ -37,9 +37,9 @@
                                             <button type="submit" class="btn btn-primary btn-block">Sign Me In</button>
                                         </div>
                                     </form>
-                                    <div class="new-account mt-3">
+                                    <!-- <div class="new-account mt-3">
                                         <p class="mb-0 mb-sm-3">Don't have an account? <a class="text-primary" href="./page-register.html">Sign up</a></p>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

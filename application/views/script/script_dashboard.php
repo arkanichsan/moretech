@@ -151,6 +151,9 @@
         closer.blur();
         return false;
     };
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
 </script>
 <script>
     var swiper = new Swiper(".front-view-slider", {
