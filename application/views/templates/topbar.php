@@ -4,8 +4,7 @@
 ***********************************-->
 <div class="nav-header">
 	<a href="<?= base_url(); ?>admin" class="brand-logo" style="color: #2d3134;">
-		MoReTech
-		<!-- <img src="<?= base_url(); ?>images/smt.png" style="width: 80%;"> -->
+		<img src="<?= base_url(); ?>images/logo/logo brand.svg" style="width: 80%;">
 	</a>
 	<div class="nav-control">
 		<div class="hamburger">
@@ -52,7 +51,7 @@
 									</li>
 								</ul>
 							</div>
-							<a class="all-notification" href="<?= base_url() ?>admin/notification_list">Notifications <i class="ti-arrow-end"></i></a>
+							<a class="all-notification" href="<?= base_url() ?>admin/notification_list"> <i class="ti-arrow-end"></i></a>
 						</div>
 					</li>
 					
