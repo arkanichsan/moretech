@@ -122,7 +122,7 @@
                  </div>
              </div>
              <div class="col-md-12">
-                 <a type="button" class="btn btn-primary col-md-12 xl-12" style="color: #fff;" href="<?= base_url(); ?>secondroom">Click to view Room 2 Monitoring</a>
+                 <a type="button" class="btn btn-primary col-md-12 xl-12" style="color: #fff;" href="<?= base_url(); ?>firstroom">Click to view Room 1 Monitoring</a>
              </div>
          </div>
      </div>
