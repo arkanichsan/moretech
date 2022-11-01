@@ -74,15 +74,15 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $uri = base_url();
-$host = "wellracom.cc5wghrbi86u.ap-southeast-1.rds.amazonaws.com";
-$username = "iotstar";
-$password = "wellracom";
-$database = "manager";
+$host = "localhost";
+$username = "u4814692_dev";
+$password = "100%Id/En";
+$database = "u4814692_moretech";
 
 if(strpos($uri, 'localhost') !== false) {
-	$username = "iotstar";
-	$password = "wellracom";
-	$database = "manager";
+	$username = "root";
+	$password = "";
+	$database = "u4814692_moretech";
 }
 
 $db['default'] = array(

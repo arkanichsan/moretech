@@ -25,46 +25,47 @@
                 </a>
 
             </li>
-            <li><a href="<?= base_url(); ?>building" aria-expanded="false">
-                    <i class="bi bi-building"></i>
-                    <span class="nav-text">Building</span>
+            <li><a class="has-arrow cursor" aria-expanded="false">
+                    <i class="flaticon-050-info"></i>
+                    <span class="nav-text">Explorer</span>
                 </a>
-            </li>
-            <li><a href="<?= base_url(); ?>history" aria-expanded="false">
-                    <i class="bi bi-clock-history"></i>
-                    <span class="nav-text">History</span>
-                </a>
+                <ul aria-expanded="false">
+                    <li>
+                        <a href="#" aria-expanded="false">By Projects</a>
+                        <ul class="mm-collapse" aria-expanded="false">
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">By Locations</a>
+                        <ul class="mm-collapse" aria-expanded="false">
+                            <li><a href="#">Location 1</a></li>
+                            <li><a href="#">Location 2</a></li>
+                            <li><a href="#">Location 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">Clients</a>
+                        <ul class="mm-collapse" aria-expanded="false">
+                            <li><a href="#">Client 1</a></li>
+                            <li><a href="#">Client 2</a></li>
+                            <li><a href="#">Client 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
 
-            <li><a class="cursor" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" >
+            <li><a href="#">
                     <i class="bi-unlock-fill"></i>
                     <span class="nav-text">Logout</span>
                 </a>
-                
             </li>
-
+            
         </ul>
         <div class="copyright">
             <h6>Moretech Admin Dashboard <span class="fs-14 font-w400">© 2022 All Rights Reserved</span></h6>
-        </div>
-        
-               
-    </div>
-</div>
-
- <!-- Modal -->
- <div class="modal fade" id="exampleModalCenter">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Are you sure ?</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal">
-                </button>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="<?= base_url() ?>login/remove">Yes</a>
-            </div>
         </div>
     </div>
 </div>

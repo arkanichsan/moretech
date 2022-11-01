@@ -9,18 +9,18 @@
                                 <div class="auth-form">
                                     <div class="text-center mb-3">
                                         <a href="index.html">
-                                            <img width="30%" class="img-fluid" src="<?= base_url() ?>images/logo/logo brand.svg">
+                                            <img width="30%" class="img-fluid" src="<?= base_url() ?>images/smt.png">
                                         </a>
                                     </div>
-                                    <h4 class="text-center mb-4">Sign in to your account</h4>
-                                    <form method="POST" action="<?= base_url().'login/login_action' ?>">
+                                    <h4 class="text-center mb-4">Sign in your account</h4>
+                                    <form action="index.html">
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Email</strong></label>
-                                            <input type="text" name="username" class="form-control" value="Username">
+                                            <input type="email" class="form-control" value="hello@example.com">
                                         </div>
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Password</strong></label>
-                                            <input type="password" name="password" class="form-control" value="Password">
+                                            <input type="password" class="form-control" value="Password">
                                         </div>
                                         <div class="form-row d-flex justify-content-between mt-4 mb-2">
                                             <div class="mb-3">
@@ -37,9 +37,9 @@
                                             <button type="submit" class="btn btn-primary btn-block">Sign Me In</button>
                                         </div>
                                     </form>
-                                    <!-- <div class="new-account mt-3">
+                                    <div class="new-account mt-3">
                                         <p class="mb-0 mb-sm-3">Don't have an account? <a class="text-primary" href="./page-register.html">Sign up</a></p>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>

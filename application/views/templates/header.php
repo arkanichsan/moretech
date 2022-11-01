@@ -17,7 +17,7 @@
 	<title>Moretech Dashboard</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/logo/logo brand.svg" />
+	<link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>images/smt.png" />
     <link href="<?= base_url(); ?>templates/kamr/vendor/fullcalendar/css/main.min.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/lightgallery/css/lightgallery.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 	<link href="<?= base_url(); ?>templates/kamr/vendor/datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>templates/kamr/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
     <link href="<?= base_url(); ?>templates/kamr/vendor/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css">
     <link href="<?= base_url(); ?>templates/kamr/css/style.css" rel="stylesheet">
     <link href="<?= base_url(); ?>templates/kamr/css/custom.css" rel="stylesheet">
 	

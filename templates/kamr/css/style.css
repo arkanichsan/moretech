@@ -3181,7 +3181,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ffd482;
+  color: #F8857D;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -23140,8 +23140,8 @@ button {
   border-color: var(--primary);
   background-color: var(--primary); }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    border-color: #ffd482;
-    background-color: #ffd482; }
+    border-color: var(--primary-hover);
+    background-color: var(--primary-hover); }
   .btn-primary:focus {
     box-shadow: 0 0 0 0.25rem var(--rgba-primary-5); }
   .btn-primary:disabled, .btn-primary.disabled {
@@ -26412,8 +26412,8 @@ table.dataTable.display tbody td {
   border-radius: 1rem; }
   .income-data .income-icon.style-1 {
     background-color: var(--primary); }
-  .income-data .income-icon.style-6 {
-    background-color: transparent;}
+  .income-data .income-icon.style-2 {
+    background-color: #2D3134; }
   .income-data .income-icon.style-3 {
     background-color: var(--rgba-primary-1);
     transition: all 0.5s; }

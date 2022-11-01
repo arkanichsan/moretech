@@ -5,7 +5,7 @@ class Admin extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
-		check_login();
+		// check_login();
 		// check_admin();
 		$this->load->model('MainModel');
 		$this->load->model('UserModel');
@@ -20,7 +20,7 @@ class Admin extends CI_Controller {
 			
 		);
 
-		$v['admin_title'] 	= 'Dashboard';
+		$v['admin_title'] 	= 'Menu';
 		$v['script']		= $this->load->view('script/script_dashboard', $data, TRUE);
 		$v['copyright'] 	= $this->load->view('templates/copyright', $data, TRUE);
 		

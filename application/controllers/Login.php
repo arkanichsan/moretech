@@ -13,8 +13,7 @@ class Login extends CI_Controller
 
 	public function index()
 	{
-		// print_r($this->LoginModel->get_user());die;
-		// $data = array();
+		$data = array();
 		$v['topbar'] 			= "";
 		// $v['leftbar'] 		= $this->load->view('templates/leftbar', $data, TRUE);
 		// $v['rightbar'] 		= $this->load->view('templates/rightbar', $data, TRUE);
@@ -27,34 +26,37 @@ class Login extends CI_Controller
 
 	public function login_action()
 	{
-	
+		$ref = ($this->input->post('ref') != "" ? $this->input->post('ref') : base_url());
 		// print_r($ref); die;
 
-		$data = $this->LoginModel->get_login($this->input->post('username'), $this->input->post('password'));
-		// print_r($data);die;
+		$data = $this->LoginModel->get_login($this->input->post('email_user'), $this->input->post('password_user'));
 
 		if ($data == 'User Not Found' || $data == 'Wrong Password') :
-			$this->session->set_flashdata('swal', '
-				Swal.fire({
-					title: "Gagal",
-					text: "'.$data.'",
-					type: "error"
-				});
-			');
-			redirect(base_url().'login');
+			$this->session->set_flashdata('error_login', $data);
+			redirect(base_url().'login?ref='.str_replace("&", "||", $ref));
 		else :
 			$newdata = [
-				'UID'           => $data->UID,
-				'Username'      	=> $data->Username,
-				'Nickname'      	=> $data->Nickname,
-				'Email'      	=> $data->Email,
-				'Company'   	=> $data->Company,
-				'CountryUID'   	=> $data->CountryUID,
+				'id_user'           => $data->id_user,
+				'fnama_user'       	=> $data->fnama_user,
+				'lnama_user'      	=> $data->lnama_user,
+				'email_user'      	=> $data->email_user,
+				'telepon_user'   	=> $data->telepon_user,
+				'alamat_user'   	=> $data->alamat_user,
+				'country_user'   	=> $data->country_user,
+				'foto_user'	    	=> $data->foto_user,
+				'role_user'	    	=> $data->role_user,
 				'logged_in'         => TRUE
 			];
 			$this->session->set_userdata('userlogin', $newdata);
 			// print_r(((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http").'://'.$ref);die;
-			redirect(base_url());
+
+			$admin = ($this->session->userlogin['id_role'] <= 2 ? 'admin' : '');
+
+			if($ref == base_url()):
+				redirect($ref.$admin);
+			else:
+				redirect(((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http").'://'.$ref);
+			endif;
 		endif;
 	}
 
