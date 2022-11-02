@@ -14,7 +14,9 @@ class MainModel extends CI_Model
     $data = $this->db
       ->from('account')
       // ->where('role_user <', 3)
-      ->get()->result_array();
+      ->get();
+
+      print_r($this->db->last_query());die;
     return $data;
   }
 

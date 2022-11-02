@@ -8,7 +8,11 @@
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-header border-0">
-                        <h4 class="card-title">History Table</h4>
+                        <h4 class="card-title w-100">History Table
+                            
+                                <input  class="datepicker w-25 form-control float-end" type="text" readonly />
+                            
+                        </h4>
                     </div>
                     <div class="card-body">
                         <div class="custom-tab-1">
@@ -24,33 +28,63 @@
                                 <div class="col-lg-12">
                                     <div class="card-body">
                                         <div class="table-responsive">
-                                            <table class="table">
+                                            <table class="table table-striped">
                                                 <thead style="background-color: #ffd482;" class="thead">
                                                     <tr>
-                                                        <th scope="col">Temperature</th>
-                                                        <th scope="col">Date</th>
-                                                        <th scope="col"><span class="badge badge-danger">Highest Temperature</span></th>
-                                                        <th scope="col"><span style="background-color: #aad3df;" class="badge">Lowest Temperature</span></th>
-                                                        <th scope="col">Average</th>
+                                                        <th scope="col"><span style="text-align: left;">Date</span></th>
+                                                        <th scope="col">Highest Temperature</th>
+                                                        <th scope="col">Lowest Temperature</th>
+                                                        <th scope="col">Average Temperature</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <th><span class="badge badge-danger">Highest Temperature</span></th>
+                                                        <th>Apr 20,2018</th>
                                                         <td>1&#8451;</td>
                                                         <td>1&#8451;</td>
                                                         <td>1&#8451;</td>
                                                     </tr>
                                                     <tr>
-                                                        <th><span style="background-color: #aad3df;" class="badge">Lowest Temperature</span></th>
+                                                        <th>Apr 20,2018</th>
                                                         <td>1&#8451;</td>
                                                         <td>1&#8451;</td>
                                                         <td>1&#8451;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Apr 20,2018</th>
                                                         <td>1&#8451;</td>
                                                         <td>1&#8451;</td>
                                                         <td>1&#8451;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Apr 20,2018</th>
                                                         <td>1&#8451;</td>
-                                                        <td><span class="badge badge-pill badge-success">3&#8451;</span></td>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Apr 20,2018</th>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Apr 20,2018</th>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Apr 20,2018</th>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Apr 20,2018</th>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
+                                                        <td>1&#8451;</td>
                                                     </tr>
                                                 </tbody>
                                             </table>

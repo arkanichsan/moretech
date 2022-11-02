@@ -25869,8 +25869,7 @@ code {
       border-color: #3D3D3D; }
   .table tbody tr td {
     vertical-align: middle;
-    border-color: #d3d3d3; 
-    text-align: center;}
+    border-color: #d3d3d3;}
     [data-theme-version="dark"] .table tbody tr td {
       /*   border-color: $d-border; */
       color: #D2D6DE !important;}

@@ -40,7 +40,7 @@
     
 	<script>
 		$(function () {
-			  $("#datepicker").datepicker({ 
+			  $(".datepicker").datepicker({ 
 					autoclose: true, 
 					todayHighlight: true
 			  }).datepicker('update', new Date());
