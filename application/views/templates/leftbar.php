@@ -56,12 +56,11 @@
  <div class="modal fade" id="exampleModalCenter">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            <div class="modal-header">
+        <div class="swal2-icon swal2-warning swal2-animate-warning-icon" style="display: flex;margin-bottom: -3px;"><span class="swal2-icon-text">!</span></div>
+            <div class="modal-header align-self-center border-0">
                 <h5 class="modal-title">Are you sure ?</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal">
-                </button>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer align-self-center border-0" style="margin-top: -3px;">
                 <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Cancel</button>
                 <a class="btn btn-primary" href="<?= base_url() ?>login/remove">Yes</a>
             </div>

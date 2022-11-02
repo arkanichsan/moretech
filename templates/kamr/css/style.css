@@ -22948,7 +22948,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   background: #ADB6C7; }
 
 .badge-success {
-  background-color: #78D69D; }
+  background-color: #78D69D;
+  margin-left: 11px; }
 
 .badge-secondary {
   background-color: #ffd482; }
@@ -25868,10 +25869,11 @@ code {
       border-color: #3D3D3D; }
   .table tbody tr td {
     vertical-align: middle;
-    border-color: #d3d3d3; }
+    border-color: #d3d3d3; 
+    text-align: center;}
     [data-theme-version="dark"] .table tbody tr td {
       /*   border-color: $d-border; */
-      color: #D2D6DE !important; }
+      color: #D2D6DE !important;}
   .table:not(.table-bordered) thead th {
     border-top: none;
     padding: 1.313rem 1.125rem;
