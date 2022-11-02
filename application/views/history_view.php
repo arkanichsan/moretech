@@ -11,7 +11,6 @@
                         <h4 class="card-title">History Table</h4>
                     </div>
                     <div class="card-body">
-                        <!-- Nav tabs -->
                         <div class="custom-tab-1">
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
@@ -20,12 +19,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#profile1">Room 2</a>
                                 </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#contact1">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#message1">Message</a>
-                                </li> -->
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="home1" role="tabpanel">
