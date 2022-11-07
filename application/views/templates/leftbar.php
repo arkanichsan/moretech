@@ -25,11 +25,11 @@
                 </a>
 
             </li>
-            <li><a href="<?= base_url(); ?>building" aria-expanded="false">
+            <!-- <li><a href="<?= base_url(); ?>building" aria-expanded="false">
                     <i class="bi bi-building"></i>
                     <span class="nav-text">Building</span>
                 </a>
-            </li>
+            </li> -->
             <li><a href="<?= base_url(); ?>history" aria-expanded="false">
                     <i class="bi bi-clock-history"></i>
                     <span class="nav-text">History</span>
